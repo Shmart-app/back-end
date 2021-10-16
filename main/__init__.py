@@ -8,3 +8,4 @@ app = Flask(__name__)
 from product_api import routes
 from nutrition_api import routes
 from customer_rating_api import routes
+from user_auth import routes
