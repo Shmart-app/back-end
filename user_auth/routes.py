@@ -48,7 +48,7 @@ def userregister():
                 status=409,
                 mimetype='application/json'
             )
-            return response        
+            return response 
     except Exception as e:
         print(e)
         response = app.response_class(
@@ -59,11 +59,45 @@ def userregister():
         return response
 
 #Login
+# Expects a request body of type
+# {
+# username: "myuser", 
+# password: "mypass",
+# }
 @app.route('/user/login', methods=['POST'], endpoint='userlogin')
 def userlogin():
     try: 
-        pass
-    except:
+        data = json.loads(request.data)
+        username = data["username"]
+        pw = data["password"]
+
+        conn = sqlite3.connect('sql/customers.db')
+        print(f'got json values, {username}, {pw}')
+        print(conn)
+        curs = conn.cursor()
+
+        user = curs.execute("SELECT * FROM users WHERE username = ? AND password = ?", (username, pw))
+        check = user.fetchone()
+        print(check)
+        print('queried db')
+
+        if check is None: #if user / pass doesn't exist in db
+            response = app.response_class(
+                response=json.dumps({"message":"Username/Password is incorrect"}),
+                status=400,
+                mimetype='application/json'
+            )
+            return response
+        else:
+            print('Username / password combo exists')
+            response = app.response_class(
+                response=json.dumps({"message":"Logged in"}),
+                status=200,
+                mimetype='application/json'
+            )
+            return response    
+    except Exception as e:
+        print(e)
         response = app.response_class(
             response=json.dumps({"message":"The server encountered an error with your request"}),
             status=403,
