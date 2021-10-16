@@ -5,6 +5,12 @@ Requirements
 - pip3
 - python3
 
+Installing libraries
+```bash
+pip install requests
+pip install flask
+```
+
 ```bash
 python3 run.py
 ```
