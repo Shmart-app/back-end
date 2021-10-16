@@ -1,0 +1,44 @@
+[
+  {
+    "user_id": "s248123",
+    "products bought": [
+      {
+        "id": "43770929851162",
+        "name": "Lay Chips",
+        "company": "Lay",
+        "price": 2.05,
+        "ratings": 4.5,
+        "date": "2021-4-1:12:0:0"
+      },
+      {
+        "id": "43770929851163",
+        "name": "Ruff Chips",
+        "company": "Ruff",
+        "price": 1.95,
+        "ratings": 2.5,
+        "date": "2021-4-1:12:0:0"
+      }
+    ]
+  },
+  {
+    "user_id": "hayden123",
+    "products bought": [
+      {
+        "id": "43770929851162",
+        "name": "Lay Chips",
+        "company": "Lay",
+        "price": 2.05,
+        "ratings": 4.5,
+        "date": "2021-4-1:12:0:0"
+      },
+      {
+        "id": "43770929851163",
+        "name": "Ruff Chips",
+        "company": "Ruff",
+        "price": 1.95,
+        "ratings": 2.5,
+        "date": "2021-4-1:12:0:0"
+      }
+    ]
+  }
+]
