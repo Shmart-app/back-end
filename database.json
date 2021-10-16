@@ -1,23 +1,122 @@
 [
-  {
-    "id": "43770929851162",
-    "name": "Lay Chips",
-    "company": "Lay",
-    "price": 2.05,
-    "ratings": 4.5
-  },
-  {
-    "id": "43770929851163",
-    "name": "Ruff Chips",
-    "company": "Ruff",
-    "price": 1.95,
-    "ratings": 2.5
-  },
-  {
-    "id": "43770929851164",
-    "name": "XYZ eggs",
-    "company": "XYZ",
-    "price": 1.05,
-    "ratings": 4.5
-  }
+    {
+        "article_number": "20067027001",
+        "mch_3_desc_english": "Produce",
+        "mch_2_desc_english": "Produce",
+        "mch_1_desc_english": "Fruit",
+        "mch_0_desc_english": "Apples",
+        "brand_code": "UNBR",
+        "product_name": "Empire Apples",
+        "product_description": "Empire apples are a cross between the McIntosh and Red Delicious varieties. They are typically red with a yellowish-green background and white sweet-tart flesh. Enjoy empire apples as a fresh snack, in your homemade applesauce, or baked in a pie.",
+        "pdp_url": "empire-apples/p/20067027001",
+        "pdp_url_lang": "en"
+    },
+    {
+        "article_number": "20140976",
+        "mch_3_desc_english": "Deli",
+        "mch_2_desc_english": "Deli",
+        "mch_1_desc_english": "Deli Cheese",
+        "mch_0_desc_english": "Deli Cheese",
+        "brand_code": "KNGS",
+        "product_name": "Cheese, Swiss Cogruet Shredded",
+        "product_description": "Rindless, ivory to light yellow interior, bright, firm and supple texture. Delicate sweet taste of hazelnut, reminiscent of Emmental but less pronounced.",
+        "pdp_url": "cheese-swiss-cogruet-shredded/p/20140976",
+        "pdp_url_lang": "en"
+    },
+    {
+        "article_number": "20319300002",
+        "mch_3_desc_english": "Centre of Store",
+        "mch_2_desc_english": "Frozen",
+        "mch_1_desc_english": "Sweet",
+        "mch_0_desc_english": "Ice Cream",
+        "brand_code": "P",
+        "product_name": "Vanilla Ice Cream",
+        "product_description": "A classic vanilla ice cream is rich, sweet and velvety… it never disappoints. But can we take a moment to appreciate its versatility? Who can decide whether it’s best in a bowl with balsamic-glazed strawberry slices and chocolate sauce – or slathered on a warm chocolate chip cookie? How about nestled on pies and tarts – or dunked in a root beer float?  We also won’t argue with purists who insist it’s best on its own. As if you needed any more reasons to enjoy some ice cream.",
+        "pdp_url": "vanilla-ice-cream/p/20319300002",
+        "pdp_url_lang": "en"
+    },
+    {
+        "article_number": "20861052020",
+        "mch_3_desc_english": "Centre of Store",
+        "mch_2_desc_english": "Frozen",
+        "mch_1_desc_english": "Sweet",
+        "mch_0_desc_english": "Ice Cream",
+        "brand_code": "KAWR",
+        "product_name": "Ice Cream, Strawberry",
+        "product_description": "",
+        "pdp_url": "ice-cream-strawberry/p/20861052020",
+        "pdp_url_lang": "en"
+    },
+    {
+        "article_number": "21291862",
+        "mch_3_desc_english": "Centre of Store",
+        "mch_2_desc_english": "OTC",
+        "mch_1_desc_english": "Medicinal Products",
+        "mch_0_desc_english": "Antacids & Antiflatu",
+        "brand_code": "0ENO",
+        "product_name": "Eno Antacid Powder Packet",
+        "product_description": "",
+        "pdp_url": "eno-antacid-powder-packet/p/21291862",
+        "pdp_url_lang": "en"
+    },
+    {
+        "article_number": "20027247",
+        "mch_3_desc_english": "Centre of Store",
+        "mch_2_desc_english": "OTC",
+        "mch_1_desc_english": "Medicinal Products",
+        "mch_0_desc_english": "Antacids & Antiflatu",
+        "brand_code": "AKSZ",
+        "product_name": "Flavoured Tablets, Lemon Lime",
+        "product_description": "Alka-Seltzer lemon lime flavoured.<br><br>For fast relief of headache and upset stomach, acid indigestion or heartburn. Alka-Seltzer will also provide relief from headache and fever plus body aches and pains..<br><br>With ASA*.<br><br>*Acetylsalicylic acid (ASA)",
+        "pdp_url": "flavoured-tablets-lemon-lime/p/20027247",
+        "pdp_url_lang": "en"
+    },
+    {
+        "article_number": "20762169",
+        "mch_3_desc_english": "Meat",
+        "mch_2_desc_english": "Meat",
+        "mch_1_desc_english": "Processed",
+        "mch_0_desc_english": "Processed Meat Slice",
+        "brand_code": "CARL",
+        "product_name": "Black Forest Ham",
+        "product_description": "Ham is the thick cut of meat from a pig's hind leg. It's commonly cured and sometimes smoked for flavour before being sold fresh, partially cooked, or cooked. As a deli meat, ham makes for a classic sandwich filling. Enjoy sliced ham on a croissant with your favourite cheese.",
+        "pdp_url": "black-forest-ham/p/20762169",
+        "pdp_url_lang": "en"
+    },
+    {
+        "article_number": "20669171",
+        "mch_3_desc_english": "Meat",
+        "mch_2_desc_english": "Meat",
+        "mch_1_desc_english": "Processed",
+        "mch_0_desc_english": "Processed Meat Slice",
+        "brand_code": "NRBD",
+        "product_name": "Dual Pack, Ham & Turkey",
+        "product_description": "",
+        "pdp_url": "dual-pack-ham-turkey/p/20669171",
+        "pdp_url_lang": "en"
+    },
+    {
+        "article_number": "20550837001",
+        "mch_3_desc_english": "Centre of Store",
+        "mch_2_desc_english": "Grocery",
+        "mch_1_desc_english": "Confectionary",
+        "mch_0_desc_english": "Candy",
+        "brand_code": "DARE",
+        "product_name": "Gummies Medley",
+        "product_description": "<div>Savour the sweet and tangy taste with these classic fresh fruit flavours.&bull;Fat free</div><div>&bull;Gluten free</div><div>&bull;Made with real fruit&nbsp;</div><div>&bull;No artificial colours or flavours</div><div>&bull;Peanut free</div>",
+        "pdp_url": "gummies-medley/p/20550837001",
+        "pdp_url_lang": "en"
+    },
+    {
+        "article_number": "20434567001",
+        "mch_3_desc_english": "Centre of Store",
+        "mch_2_desc_english": "Grocery",
+        "mch_1_desc_english": "Confectionary",
+        "mch_0_desc_english": "Candy",
+        "brand_code": "GBON",
+        "product_name": "Almond Nougat, Assorted",
+        "product_description": "",
+        "pdp_url": "almond-nougat-assorted/p/20434567001",
+        "pdp_url_lang": "en"
+    }
 ]
